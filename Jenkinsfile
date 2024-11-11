@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'git@github.com:manarkrid/mern_cicd.git', credentialsId: 'Gitlab_ssh'
+                git branch: 'main', url: 'git@github.com:manarkrid/mern_cicd.git', credentialsId: 'Gitlab_sshh'
             }
         }
         stage('Build Server Image') {
